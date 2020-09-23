@@ -77,3 +77,13 @@ If you are using mac or linux, open the src folder from the terminal, and type t
 ```sh
 find . -name "*.css" -exec bash -c 'mv "$1" "${1%.css}".scss' - '{}' \;
 ```
+
+# Merge commit with nano
+
+```sh
+press "i" (i for insert)
+write your merge message 
+press "esc" (escape) 
+write ":wq" (write & quit)
+then press enter
+```
